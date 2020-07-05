@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>Car Prediction</title>
+</head>
+<body>
+	<h2>Predictive Analysis</h2>
+	<form method='POST' action='{{ url_for('predict')}}'>
+		<div>
+			<label>Showroom Selling Price</label>
+			<input type='text' id='price' name='price' required='required' />
+		</div><br>
+		<div>
+			<label>Year</label>
+			<input type='number' id='year' name='year' required='required' />
+		</div><br>
+		<div>
+			<label>How many kilometers driven?</label>
+			<input type='text' id='km_driven' name='km_driven' required='required' />
+		</div><br>
+		<div>
+			<label>Fuel Type</label>
+			<select name='fuel_type' id='fuel_type' required='required'>
+				<option value='Petrol'>Petrol</option>
+				<option value='Diesel'>Diesel</option>
+				<option value='CNG'>CNG</option>
+			</select>
+		</div><br>
+		<div>
+			<label>How many previous owners?</label><br>
+			<input type="radio" id="0" name="owner" value="0">
+			<label for="0">0</label><br>
+			<input type="radio" id="1" name="owner" value="1">
+			<label for="1">1</label><br>
+			<input type="radio" id="3" name="owner" value="3">
+			<label for="3">3</label>
+		</div><br>
+		<div>
+			<label>Dealer or Individual?</label><br>
+			<input type="radio" id="individual" name="seller_type" value="individual">
+			<label for="individual">Individual</label><br>
+			<input type="radio" id="dealer" name="seller_type" value="dealer">
+			<label for="dealer">Dealer</label><br>
+		</div><br>
+		<div>
+			<label>Transmission Type</label>
+			<select name='trans_type' id='trans_type' required='required'>
+				<option value='Manual'>Manual Car</option>
+				<option value='Automatic'>Automatic Car</option>
+			</select>
+		</div><br><br>
+		<button type='submit' id='sub'>Calculate Selling Price</button>
+	</form>
+	<div>
+		<br><br><h3>{{ prediction_text }}<h3>
+	</div>
+</body>
+</html>
