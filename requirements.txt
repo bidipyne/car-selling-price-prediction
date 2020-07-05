@@ -6,7 +6,6 @@ autopep8==1.5.3
 Babel==2.8.0
 backcall==0.2.0
 bcrypt==3.1.7
-bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1588608214987/work
 certifi==2020.6.20
 cffi==1.14.0
 chardet==3.0.4
@@ -25,10 +24,8 @@ Flask==1.1.2
 helpdev==0.7.1
 idna==2.10
 imagesize==1.2.0
-importlib-metadata @ file:///D:/bld/importlib-metadata_1593211612489/work
 intervaltree==3.0.2
 ipykernel==5.3.0
-ipython @ file:///C:/ci/ipython_1593433781269/work
 ipython-genutils==0.2.0
 isort==4.3.21
 itsdangerous==1.1.0
@@ -48,10 +45,8 @@ mccabe==0.6.1
 mistune==0.8.4
 nbconvert==5.6.1
 nbformat==5.0.6
-notebook @ file:///D:/bld/notebook_1588887315004/work
 numpy==1.19.0
 numpydoc==1.1.0
-packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1589925210001/work
 pandas==1.0.5
 pandocfilters==1.4.2
 paramiko==2.7.1
@@ -60,7 +55,6 @@ pathtools==0.1.2
 pexpect==4.8.0
 pickleshare==0.7.5
 pluggy==0.13.1
-prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1590412252446/work
 prompt-toolkit==3.0.5
 psutil==5.7.0
 ptyprocess==0.6.0
@@ -115,7 +109,6 @@ traitlets==4.3.3
 typed-ast==1.4.1
 urllib3==1.25.9
 watchdog==0.10.3
-wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
 Werkzeug==1.0.1
 wincertstore==0.2
